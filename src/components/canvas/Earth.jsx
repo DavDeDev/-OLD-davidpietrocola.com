@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import CanvasLoader from "./Loader";
+import CanvasLoader from "../loader";
 
 const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
@@ -38,4 +38,4 @@ const EarthCanvas = () => {
   );
 };
 
-export default Earth;
+export default EarthCanvas;
