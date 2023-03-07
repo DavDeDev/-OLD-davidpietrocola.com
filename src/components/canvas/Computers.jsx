@@ -30,6 +30,8 @@ const Computers = () => {
 };
 
 const ComputersCanvas = () => {
+  
+
   return (
     <Canvas
       frameLoop="demand"
