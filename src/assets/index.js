@@ -22,6 +22,7 @@ import java from "./tech/java.png";
 import postgre from "./tech/postgresql.png";
 import aws from "./tech/aws.png";
 import firebase from "./tech/firebase.png";
+import postman from "./tech/postman.png";
 
 import centennial from "./company/centennial.png";
 
@@ -51,6 +52,7 @@ export {
   java,
   postgre,
   firebase,
+  postman,
   aws,
   centennial,
   carrent,

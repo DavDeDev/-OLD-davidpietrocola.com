@@ -14,6 +14,7 @@ import {
   csharp,
   firebase,
   java,
+  postman,
   postgre,
   aws,
   centennial,
@@ -43,7 +44,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Java Developer",
     icon: mobile,
   },
   {
@@ -51,8 +52,14 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DBA",
     icon: creator,
+  },{
+    title: "React Native Developer",
+    icon: mobile,
+  },{
+    title: "React Native Developer",
+    icon: mobile,
   },
 ];
 
@@ -85,6 +92,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+  // {
+  //   name:"Postman",
+  //   icon: postman,
+  // },
   {
     name: "figma",
     icon: figma,
