@@ -4,20 +4,22 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
-  reactjs,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
+  csharp,
+  firebase,
+  java,
+  postgre,
+  aws,
   centennial,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -56,6 +58,10 @@ const services = [
 
 const technologies = [
   {
+    name: "Java",
+    icon: java,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -68,14 +74,9 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "git",
+    icon: git,
   },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  
   {
     name: "Node JS",
     icon: nodejs,
@@ -85,20 +86,28 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
     name: "figma",
     icon: figma,
   },
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "aws",
+    icon: aws,
+  },
+  {
+    name: "firebase",
+    icon: firebase,
+  },
+  {
+    name: "c#",
+    icon: csharp,
+  },
+  {
+    name: "postgresql",
+    icon: postgre,
   },
 ];
 

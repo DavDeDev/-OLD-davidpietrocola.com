@@ -17,9 +17,11 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import csharp from "./tech/c-sharp.png";
+import java from "./tech/java.png";
+import postgre from "./tech/postgresql.png";
+import aws from "./tech/aws.png";
+import firebase from "./tech/firebase.png";
 
 import centennial from "./company/centennial.png";
 
@@ -45,9 +47,11 @@ export {
   javascript,
   mongodb,
   nodejs,
-  reactjs,
-  typescript,
-  threejs,
+  csharp,
+  java,
+  postgre,
+  firebase,
+  aws,
   centennial,
   carrent,
   jobit,
