@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import gifLogo from "./logo.gif";
 
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -28,6 +29,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  gifLogo,
   backend,
   creator,
   mobile,
