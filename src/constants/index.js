@@ -9,12 +9,16 @@ import {
   nodejs,
   mongodb,
   git,
+  react,
   figma,
+  ubuntu,
   docker,
   csharp,
   firebase,
   java,
+  jquery,
   postman,
+  python,
   postgre,
   aws,
   centennial,
@@ -65,57 +69,73 @@ const technologies = [
     icon: java,
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "c#",
+    icon: csharp,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
+    name: "React",
+    icon: react,
+  },
+  {
     name: "git",
     icon: git,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "postgresql",
+    icon: postgre,
   },
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  // {
-  //   name:"Postman",
-  //   icon: postman,
-  // },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
   {
     name: "aws",
     icon: aws,
   },
   {
-    name: "firebase",
-    icon: firebase,
+    name: "Ubuntu",
+    icon: ubuntu,
   },
   {
-    name: "c#",
-    icon: csharp,
+    name: "JQuery",
+    icon: jquery,
   },
-  {
-    name: "postgresql",
-    icon: postgre,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name:"Postman",
+  //   icon: postman,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+  // {
+  //   name: "firebase",
+  //   icon: firebase,
+  // },
 ];
 
 const experiences = [
@@ -139,7 +159,7 @@ const experiences = [
     iconBg: "#000",
     date: "January 2023",
     points: [
-      "DDeveloped a Discord Bot during the UofTHacks hackathon, designed to recommend locations around Toronto based on the user's emotional state, with the goal of improving mental health and wellbeing.",
+      "Developed a Discord Bot during the UofTHacks hackathon, designed to recommend locations around Toronto based on the user's emotional state, with the goal of improving mental health and wellbeing.",
       "Overcame challenges such as learning how to create a Discord bot and incorporating Co:here AI and ML technology, resulting in the successful creation of a functional bot. Gained valuable experience in bot development and working with AI and ML tools.",
     ],
     website: "https://devpost.com/software/travel-therapy",

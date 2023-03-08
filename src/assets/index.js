@@ -25,6 +25,10 @@ import postgre from "./tech/postgresql.png";
 import aws from "./tech/aws.png";
 import firebase from "./tech/firebase.png";
 import postman from "./tech/postman.png";
+import react from "./tech/reactjs.png";
+import python from "./tech/python.png";
+import ubuntu from "./tech/ubuntu.png";
+import jquery from "./tech/jquery.png";
 
 import centennial from "./company/centennial.png";
 import uofthacks from "./company/uofthacks.png";
@@ -57,7 +61,11 @@ export {
   mongodb,
   nodejs,
   csharp,
+  python,
+  ubuntu,
+  jquery,
   java,
+  react,
   postgre,
   firebase,
   postman,
