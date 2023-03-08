@@ -22,7 +22,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
             I'm a student and a developer. <br className="sm:block hidden" />
-            I'm passionate about building things
+            <span className="text-[#ff8000]">FLOSS</span> enthusiast.
           </p>
           <div className="flex mt-6 gap-5">
             <a

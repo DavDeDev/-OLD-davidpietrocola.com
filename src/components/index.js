@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
+import Quote from './Quote';
 import Works from './Works';
 import Contact from './Contact';
 
@@ -12,6 +13,7 @@ export {
   Navbar,
   About,
   Tech,
+  Quote,
   Experience,
   Works,
   Contact,
