@@ -126,9 +126,9 @@ const Contact = () => {
             <a
               href={resume}
               download
-              className="bg-[#ff8000] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+              className=" bg-[#ff8000] py-3 px-5 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
             >
-              Download Resume
+             Resume
             </a>
           </div>
         </form>

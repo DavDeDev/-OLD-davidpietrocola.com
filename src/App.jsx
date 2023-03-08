@@ -4,7 +4,7 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
+
   Hero,
   Navbar,
   Tech,
@@ -30,6 +30,7 @@ const App = () => {
         </div>
       </div>
     </BrowserRouter>
+    
   );
 };
 
