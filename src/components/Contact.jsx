@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { resume } from "../assets";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -87,7 +89,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -113,23 +115,22 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
+          <div className="flex flex-row justify-between">
+            <button
+              type="submit"
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
 
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
-          
-            <div className="text-white text-center">
-              Let's connect on{" "}
-              <a
-                href="https://www.linkedin.com/in/pietrocoladavid/"
-                target="_blank"
-                className="blue-text-gradient"
-              >LinkedIn
-              </a>!
-            </div>
+            <a
+              href={resume}
+              download
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            >
+              Download Resume
+            </a>
+          </div>
         </form>
       </motion.div>
 
