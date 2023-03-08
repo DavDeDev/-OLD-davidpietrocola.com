@@ -16,6 +16,7 @@ import {
   csharp,
   firebase,
   java,
+  tailwind,
   jquery,
   postman,
   python,
@@ -87,6 +88,10 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "Tailwind",
+    icon: tailwind,
   },
   {
     name: "postgresql",

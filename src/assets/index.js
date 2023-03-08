@@ -29,6 +29,7 @@ import react from "./tech/reactjs.png";
 import python from "./tech/python.png";
 import ubuntu from "./tech/ubuntu.png";
 import jquery from "./tech/jquery.png";
+import tailwind from "./tech/tailwind.png";
 
 import centennial from "./company/centennial.png";
 import uofthacks from "./company/uofthacks.png";
@@ -64,6 +65,7 @@ export {
   python,
   ubuntu,
   jquery,
+  tailwind,
   java,
   react,
   postgre,
