@@ -46,7 +46,7 @@ const About = () => {
       >
         I'm a student and a developer. I'm passionate about building things.
         experience in building websites and web applications. I'm currently
-        learning and working on React, Next.js, and Node.js.
+        learning React, Next.js, and Node.js.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

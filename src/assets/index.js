@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
 import gifLogo from "./logo.gif";
 
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import backend from "./backenddev.png";
+import webdev from "./webdev.png";
+import javadev from "./javadev.png";
+import dba from "./dba.png";
 import github from "./github.png";
 import live from "./live.png";
 import menu from "./menu.svg";
@@ -38,9 +38,9 @@ export {
   logo,
   gifLogo,
   backend,
-  creator,
-  mobile,
-  web,
+  webdev,
+  javadev,
+  dba,
   github,
   linkedIn,
   live,
