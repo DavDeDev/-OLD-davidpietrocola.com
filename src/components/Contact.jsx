@@ -35,8 +35,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_8f25ble",
-        "template_jwyzg94",
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "David",
@@ -44,7 +44,7 @@ const Contact = () => {
           to_email: "pietrocoladavid@gmail.com",
           message: form.message,
         },
-        "MJPOW-fqrttmUg6bX"
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
@@ -128,7 +128,7 @@ const Contact = () => {
               download
               className=" bg-[#ff8000] py-3 px-5 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
             >
-             Resume
+              Resume
             </a>
           </div>
         </form>
