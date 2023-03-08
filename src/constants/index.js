@@ -185,7 +185,7 @@ const projects = [
       },
       {
         name: "hackathon",
-        color: "blue-text-gradient",
+        color: "purple-text-gradient",
       },
     ],
     image: travelTherapy,
@@ -200,15 +200,15 @@ const projects = [
     tags: [
       {
         name: "manifest V3",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "chrome APIs",
         color: "green-text-gradient",
       },
       {
+        name: "chrome APIs",
+        color: "orange-text-gradient",
+      },
+      {
         name: "css",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: opzioneZen,
@@ -232,7 +232,7 @@ const projects = [
       },
       {
         name: "SwaggerUI",
-        color: "pink-text-gradient",
+        color: "lime-text-gradient",
       },
     ],
     image: jobsApi,
