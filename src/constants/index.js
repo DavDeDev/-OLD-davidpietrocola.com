@@ -18,6 +18,8 @@ import {
   postgre,
   aws,
   centennial,
+  uofthacks,
+  nsbe,
   travelTherapy,
   opzioneZen,
   jobsApi,
@@ -128,7 +130,34 @@ const experiences = [
       "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
       "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
     ],
+    website:"https://wimtach.centennialcollege.ca/partners/",
   },
+  {
+    title: "Hackathon",
+    company_name: "UofTHacks",
+    icon: uofthacks,
+    iconBg: "#000",
+    date: "January 2023",
+    points: [
+      "Designed and implemented a Microsoft SQL Server database from scratch, and hosted it on Amazon Web Services (AWS) Relational Database Service (RDS), ensuring high availability and scalability of the system.",
+      "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
+      "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
+    ],
+    website:"https://wimtach.centennialcollege.ca/partners/",
+  },
+  {
+    title: "Hackathon",
+    company_name: "NSBE",
+    icon: nsbe,
+    iconBg: "#271744",
+    date: "March 2023",
+    points: [
+      "Designed and implemented a Microsoft SQL Server database from scratch, and hosted it on Amazon Web Services (AWS) Relational Database Service (RDS), ensuring high availability and scalability of the system.",
+      "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
+      "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
+    ],
+    website:"https://wimtach.centennialcollege.ca/partners/",
+  }
   // {
   //   title: "React Native Developer",
   //   company_name: "Tesla",

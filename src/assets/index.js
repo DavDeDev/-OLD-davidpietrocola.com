@@ -27,6 +27,8 @@ import firebase from "./tech/firebase.png";
 import postman from "./tech/postman.png";
 
 import centennial from "./company/centennial.png";
+import uofthacks from "./company/uofthacks.png";
+import nsbe from "./company/nsbe.png";
 
 import travelTherapy from "./travelTherapy.png";
 import opzioneZen from "./opzioneZen.gif";
@@ -61,6 +63,8 @@ export {
   postman,
   aws,
   centennial,
+  uofthacks,
+  nsbe,
   travelTherapy,
   opzioneZen,
   jobsApi,
