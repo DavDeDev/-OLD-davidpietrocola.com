@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 
+import { github, linkedIn } from "../assets";
+
 import { resume } from "../assets";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -23,32 +25,32 @@ const Hero = () => {
             I'm passionate about building things
           </p>
           <div className="flex mt-6 gap-5">
-        <a
-          href="https://www.linkedin.com/in/pietrocoladavid/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-tertiary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary z-10"
-        >
-          LinkedIn
-        </a>
-        <a
-          href="https://github.com/DavDeDev"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-tertiary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary z-10"
-        >
-          Github
-        </a>
-        <a
-          href={resume}
-          download
-          className="bg-tertiary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary z-10"
-        >
-          Download Resume
-        </a>
+            <a
+              href="https://www.linkedin.com/in/pietrocoladavid/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-tertiary w-[50px] rounded-xl outline-none text-white font-bold shadow-md z-10"
+            >
+              <img src={linkedIn} className="object-cover w-full"></img>
+            </a>
+            <a
+              href="https://github.com/DavDeDev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-tertiary w-[50px] rounded-xl outline-none text-white font-bold shadow-md shadow-primary z-10"
+            >
+              <img src={github} className="object-cover "></img>
+            </a>
+            <a
+              href={resume}
+              download
+              className="bg-[#915eff] py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary z-10"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
       <ComputersCanvas />
 

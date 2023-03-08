@@ -1,4 +1,4 @@
-  import logo from "./logo.svg";
+import logo from "./logo.svg";
 import gifLogo from "./logo.gif";
 
 import backend from "./backend.png";
@@ -9,6 +9,7 @@ import github from "./github.png";
 import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedIn from "./linkedInButton.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -41,6 +42,7 @@ export {
   mobile,
   web,
   github,
+  linkedIn,
   live,
   menu,
   close,
@@ -62,5 +64,5 @@ export {
   travelTherapy,
   opzioneZen,
   jobsApi,
-  resume
+  resume,
 };
