@@ -191,8 +191,6 @@ const projects = [
     image: travelTherapy,
     source_code_link:
       "https://github.com/DavDeDev/UofTHacks-TravelTherapy#readme-top",
-    live_demo_link:
-      "https://chrome.google.com/webstore/detail/opzione-zen/pbkpdonipildmhpcpdjegimbhnkogpfi",
   },
   {
     name: "Opzione Zen",
@@ -215,6 +213,8 @@ const projects = [
     ],
     image: opzioneZen,
     source_code_link: "https://github.com/DavDeDev/Opzione-Zen#readme-top",
+    live_demo_link:
+      "https://chrome.google.com/webstore/detail/opzione-zen/pbkpdonipildmhpcpdjegimbhnkogpfi",
   },
   {
     name: "Jobs API",
