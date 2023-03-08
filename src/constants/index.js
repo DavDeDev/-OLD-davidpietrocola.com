@@ -231,7 +231,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "SwaggerUI",
+        name: "swaggerUI",
         color: "lime-text-gradient",
       },
     ],

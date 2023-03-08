@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+  import logo from "./logo.svg";
 import gifLogo from "./logo.gif";
 
 import backend from "./backend.png";
@@ -31,6 +31,8 @@ import travelTherapy from "./travelTherapy.png";
 import opzioneZen from "./opzioneZen.gif";
 import jobsApi from "./jobsApi.png";
 
+import resume from "./resume_DavidPietrocola.pdf";
+
 export {
   logo,
   gifLogo,
@@ -60,4 +62,5 @@ export {
   travelTherapy,
   opzioneZen,
   jobsApi,
+  resume
 };
