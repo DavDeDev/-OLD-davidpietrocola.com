@@ -26,8 +26,8 @@ import postman from "./tech/postman.png";
 
 import centennial from "./company/centennial.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import travelTherapy from "./travelTherapy.png";
+import opzioneZen from "./opzioneZen.gif";
 import tripguide from "./tripguide.png";
 
 export {
@@ -55,7 +55,7 @@ export {
   postman,
   aws,
   centennial,
-  carrent,
-  jobit,
+  travelTherapy,
+  opzioneZen,
   tripguide,
 };

@@ -18,9 +18,10 @@ import {
   postgre,
   aws,
   centennial,
-  carrent,
-  jobit,
+  travelTherapy,
+  opzioneZen,
   tripguide,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -179,28 +180,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Travel Therapy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Our discord bot mainly uses Python to develop the backend system of our bot, and with the help of the discord API, our bot provides a user-friendly and understandable interface. After getting input from users, our app uses Co:here to generate recommendations based on the emotions displayed by the user.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "discord",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "javascript",
+        color: "purple-to-pink-wave-gradient",
       },
     ],
-    image: carrent,
+    image: travelTherapy,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Chrome Extension – “Opzione Zen”",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -217,8 +218,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: opzioneZen,
+    source_code_link: "https://github.com/DavDeDev/Opzione-Zen",
   },
   {
     name: "Trip Guide",
@@ -231,7 +232,7 @@ const projects = [
       },
       {
         name: "supabase",
-        color: "green-text-gradient",
+        color: "red-text-gradient",
       },
       {
         name: "css",
