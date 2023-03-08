@@ -123,54 +123,40 @@ const experiences = [
     title: "Student Researcher - Full Stack Developer",
     company_name: "Wimtach",
     icon: centennial,
-    iconBg: "#d3e02a",
+    iconBg: "#454546",
     date: "January 2023 - Present",
     points: [
       "Designed and implemented a Microsoft SQL Server database from scratch, and hosted it on Amazon Web Services (AWS) Relational Database Service (RDS), ensuring high availability and scalability of the system.",
       "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
       "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
     ],
-    website:"https://wimtach.centennialcollege.ca/partners/",
+    website: "https://wimtach.centennialcollege.ca/partners/",
   },
   {
-    title: "Hackathon",
-    company_name: "UofTHacks",
+    title: "UofTHacks Hackathon",
+    company_name: "University Of Toronto",
     icon: uofthacks,
     iconBg: "#000",
     date: "January 2023",
     points: [
-      "Designed and implemented a Microsoft SQL Server database from scratch, and hosted it on Amazon Web Services (AWS) Relational Database Service (RDS), ensuring high availability and scalability of the system.",
-      "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
-      "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
+      "DDeveloped a Discord Bot during the UofTHacks hackathon, designed to recommend locations around Toronto based on the user's emotional state, with the goal of improving mental health and wellbeing.",
+      "Overcame challenges such as learning how to create a Discord bot and incorporating Co:here AI and ML technology, resulting in the successful creation of a functional bot. Gained valuable experience in bot development and working with AI and ML tools.",
     ],
-    website:"https://wimtach.centennialcollege.ca/partners/",
+    website: "https://devpost.com/software/travel-therapy",
   },
   {
-    title: "Hackathon",
-    company_name: "NSBE",
+    title: "NSBE Hackathon",
+    company_name: "University Of Toronto",
     icon: nsbe,
     iconBg: "#271744",
     date: "March 2023",
     points: [
-      "Designed and implemented a Microsoft SQL Server database from scratch, and hosted it on Amazon Web Services (AWS) Relational Database Service (RDS), ensuring high availability and scalability of the system.",
-      "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
-      "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
+      "Our team participated in an inclusivity-themed hackathon and developed a discussion facilitation platform tailored for educational institutions.",
+      `Our team's solution was recognized with third place in the 'Best education hack' category, highlighting the importance of inclusivity in education and the potential of technology to facilitate it.`,
     ],
-    website:"https://wimtach.centennialcollege.ca/partners/",
-  }
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+    website:
+      "https://devpost.com/software/discuss-io?ref_content=user-portfolio&ref_feature=in_progress",
+  },
 ];
 
 const projects = [
