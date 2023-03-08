@@ -20,8 +20,7 @@ import {
   centennial,
   travelTherapy,
   opzioneZen,
-  tripguide,
-  
+  jobsApi,
 } from "../assets";
 
 export const navLinks = [
@@ -55,12 +54,6 @@ const services = [
   {
     title: "DBA",
     icon: creator,
-  },{
-    title: "React Native Developer",
-    icon: mobile,
-  },{
-    title: "React Native Developer",
-    icon: mobile,
   },
 ];
 
@@ -181,6 +174,8 @@ const testimonials = [
 const projects = [
   {
     name: "Travel Therapy",
+    type: "Discord Bot",
+
     description:
       "Our discord bot mainly uses Python to develop the backend system of our bot, and with the help of the discord API, our bot provides a user-friendly and understandable interface. After getting input from users, our app uses Co:here to generate recommendations based on the emotions displayed by the user.",
     tags: [
@@ -189,58 +184,60 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "discord",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "purple-to-pink-wave-gradient",
+        name: "hackathon",
+        color: "blue-text-gradient",
       },
     ],
     image: travelTherapy,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/DavDeDev/UofTHacks-TravelTherapy#readme-top",
+    live_demo_link:
+      "https://chrome.google.com/webstore/detail/opzione-zen/pbkpdonipildmhpcpdjegimbhnkogpfi",
   },
   {
-    name: "Chrome Extension – “Opzione Zen”",
+    name: "Opzione Zen",
+    type: "Chrome Extension",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project is a Chrome Extension called 'Opzione Zen' that removes distracting components around the main content on popular websites to help users focus when reading documentation. It was developed after studying JavaScript and reading Google's documentation. The project includes a manifest.json file",
     tags: [
       {
-        name: "react",
+        name: "manifest V3",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "chrome APIs",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: opzioneZen,
-    source_code_link: "https://github.com/DavDeDev/Opzione-Zen",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "red-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: opzioneZen,
+    source_code_link: "https://github.com/DavDeDev/Opzione-Zen#readme-top",
+  },
+  {
+    name: "Jobs API",
+    type: "RESTful API",
+    description:
+      "The project involved building a job search API using the Node.js and Express framework. MongoDB was utilized to store and retrieve job listings data, and RESTful routes were implemented to enable CRUD operations on the job listings. The API was tested and debugged using Postman, and it was integrated with a front-end documentation that was written in YAML using SwaggerUI and Apimatic",
+    tags: [
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SwaggerUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobsApi,
+    source_code_link: "https://github.com/DavDeDev/JOBs-API",
+    live_demo_link: "https://seal-app-njg7y.ondigitalocean.app/api-docs/",
   },
 ];
 

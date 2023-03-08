@@ -10,6 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ProjectCard = ({
   index,
   name,
+  type,
   description,
   tags,
   image,
@@ -46,6 +47,7 @@ const ProjectCard = ({
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <h5 className=" text-secondary text-[16px]">{type}</h5>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
           <div className="mt-4 flex flex-wrap gap-2">
             {tags.map((tag) => (

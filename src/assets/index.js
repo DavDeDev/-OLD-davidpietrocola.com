@@ -28,7 +28,7 @@ import centennial from "./company/centennial.png";
 
 import travelTherapy from "./travelTherapy.png";
 import opzioneZen from "./opzioneZen.gif";
-import tripguide from "./tripguide.png";
+import jobsApi from "./jobsApi.png";
 
 export {
   logo,
@@ -57,5 +57,5 @@ export {
   centennial,
   travelTherapy,
   opzioneZen,
-  tripguide,
+  jobsApi,
 };
