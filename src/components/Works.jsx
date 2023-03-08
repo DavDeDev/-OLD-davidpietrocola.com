@@ -91,7 +91,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I have worked on a variety of projects, from web apps to mobile apps.&nbsp;You can find more on my <a href="https://github.com/DavDeDev" target="_blank" className="text-[#915eff] font-bold">Github</a>.
+          I have worked on a variety of projects, from web apps to mobile apps.&nbsp;You can find more on my <a href="https://github.com/DavDeDev" target="_blank" className="text-[#ff8000] font-bold">Github</a>.
         </motion.p>
       </div>
 

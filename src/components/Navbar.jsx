@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           <img src={gifLogo} alt='logo' className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            <span className="text-[#915eff]">DavDeDev &nbsp;</span>
+            <span className="text-[#ff8000]">DavDeDev &nbsp;</span>
             <span className='sm:block hidden'> | David Pietrocola</span>
           </p>
         </Link>
