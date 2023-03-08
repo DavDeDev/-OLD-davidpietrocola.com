@@ -120,6 +120,9 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          <div className='text-white text-center mt-4'>
+        Let's connect on <a href="https://www.linkedin.com/in/pietrocoladavid/"  target="_blank" className="blue-text-gradient">LinkedIn</a> !
+      </div>
         </form>
       </motion.div>
 
