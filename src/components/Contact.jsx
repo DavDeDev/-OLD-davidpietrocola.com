@@ -49,7 +49,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you! I'll get back to you soon.");
 
           setForm({
             name: "",
@@ -118,7 +118,7 @@ const Contact = () => {
           <div className="flex flex-row justify-between">
             <button
               type="submit"
-              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+              className="bg-[#ff8000] py-3 px-5 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
             >
               {loading ? "Sending..." : "Send"}
             </button>
@@ -126,9 +126,9 @@ const Contact = () => {
             <a
               href={resume}
               download
-              className=" bg-[#ff8000] py-3 px-5 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+              className=" bg-secondary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
             >
-              Resume
+             Get Resume!
             </a>
           </div>
         </form>

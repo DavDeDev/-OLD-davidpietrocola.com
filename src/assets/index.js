@@ -39,7 +39,7 @@ import travelTherapy from "./travelTherapy.png";
 import opzioneZen from "./opzioneZen.gif";
 import jobsApi from "./jobsApi.png";
 
-import resume from "./resume_DavidPietrocola.pdf";
+import resume from "./PietrocolaDavid_resume.pdf";
 
 export {
   logo,

@@ -18,11 +18,14 @@ const Hero = () => {
         </div>
         <div className="z-10">
           <h1 className={`${styles.heroHeadText}`}>
-            Hi, I'm <span className="text-[#ff8000]">David</span>
+            Hi, I'm <span className="text-[#ff8000]">David!</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
             I'm a student and a developer. <br className="sm:block hidden" />
-            <span className="text-[#ff8000]">FLOSS</span> enthusiast.
+            <a target="_blank" href="https://www.gnu.org/philosophy/floss-and-foss.en.html">
+              <span className="text-[#ff8000] underline">FLOSS</span>{" "}
+            </a>
+            enthusiast.
           </p>
           <div className="flex mt-6 gap-5">
             <a
@@ -46,7 +49,7 @@ const Hero = () => {
               download
               className="bg-[#ff8000] py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary z-10"
             >
-             <span className="hidden sm:inline">Download</span> Resume
+              <span className="hidden sm:inline">Download</span> Resume
             </a>
           </div>
         </div>

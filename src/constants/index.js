@@ -145,7 +145,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Student Researcher - Full Stack Developer",
+    title: "Student Researcher | Full Stack Developer",
     company_name: "Wimtach",
     icon: centennial,
     iconBg: "#454546",
