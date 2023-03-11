@@ -34,7 +34,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="bg-tertiary w-[50px] rounded-xl outline-none text-white font-bold shadow-md z-10"
             >
-              <img src={linkedIn} className="object-cover w-full"></img>
+              <img src={linkedIn} alt="LinkedIn icon" className="object-cover w-full"></img>
             </a>
             <a
               href="https://github.com/DavDeDev"
@@ -42,7 +42,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="inline-block bg-tertiary w-[50px] rounded-xl outline-none text-white font-bold shadow-md shadow-primary z-10"
             >
-              <img src={github} className="object-cover "></img>
+              <img src={github} alt="Github icon" className="object-cover "></img>
             </a>
             <a
               href={resume}
