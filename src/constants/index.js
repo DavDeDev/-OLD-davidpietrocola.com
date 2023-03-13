@@ -153,7 +153,6 @@ const experiences = [
     points: [
       "Designed and implemented a Microsoft SQL Server database from scratch, and hosted it on Amazon Web Services (AWS) Relational Database Service (RDS), ensuring high availability and scalability of the system.",
       "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
-      "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
     ],
     website: "https://wimtach.centennialcollege.ca/partners/",
   },
