@@ -44,7 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a student and a developer. I'm passionate about building things.
+        I'm a student and a developer. I'm passionate about building things with
         experience in building websites and web applications. I'm currently
         learning<span className="blue-text-gradient"> React</span>, <span className="pink-text-gradient">Blockchain development</span>, and <span className="green-text-gradient">Testing practices</span>.
       </motion.p>
