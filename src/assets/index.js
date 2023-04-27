@@ -34,7 +34,7 @@ import tailwind from "./tech/tailwind.png";
 import centennial from "./company/centennial.png";
 import mlh from "./company/mlh.png";
 import uofthacks from "./company/uofthacks.png";
-import nsbe from "./company/nsbe.png";
+import nsbe from "./company/NSBE.png";
 
 import travelTherapy from "./travelTherapy.png";
 import opzioneZen from "./opzioneZen.gif";
