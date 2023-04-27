@@ -157,7 +157,19 @@ const experiences = [
     ],
     website: "https://wimtach.centennialcollege.ca/partners/",
   },{
-    title: "MapHacks 2",
+    title: "EducateHacks - 4th place",
+    company_name: "MLH",
+    icon: mlh,
+    iconBg: "#fff", 
+    date: "April 2023",
+    points: [
+      "With HackTheFeed, users can easily access and subscribe to relevant cybersecurity news and updates, providing them with the technological literacy needed in the modern world.",
+      "Leveraged the latest developments in OpenAI technology, to provide real-time personalized insights for all posts.",
+    ],
+    website: "https://devpost.com/software/hackthefeed-1ycujf",
+  },
+  {
+    title: "MapHacks 2 - 1st place",
     company_name: "MLH",
     icon: mlh,
     iconBg: "#fff",
@@ -169,19 +181,7 @@ const experiences = [
     website: "https://devpost.com/software/tbd-p9xqhv",
   },
   {
-    title: "UofTHacks Hackathon",
-    company_name: "University Of Toronto",
-    icon: uofthacks,
-    iconBg: "#000",
-    date: "January 2023",
-    points: [
-      "Developed a Discord Bot during the UofTHacks hackathon, designed to recommend locations around Toronto based on the user's emotional state, with the goal of improving mental health and wellbeing.",
-      "Overcame challenges such as learning how to create a Discord bot and incorporating Co:here AI and ML technology, resulting in the successful creation of a functional bot. Gained valuable experience in bot development and working with AI and ML tools.",
-    ],
-    website: "https://devpost.com/software/travel-therapy",
-  },
-  {
-    title: "NSBE Hackathon",
+    title: "NSBE Hackathon - 3rd place",
     company_name: "University Of Toronto",
     icon: nsbe,
     iconBg: "#271744",
@@ -192,6 +192,18 @@ const experiences = [
     ],
     website:
       "https://devpost.com/software/discuss-io?ref_content=user-portfolio&ref_feature=in_progress",
+  },
+    {
+    title: "UofTHacks Hackathon",
+    company_name: "University Of Toronto",
+    icon: uofthacks,
+    iconBg: "#000",
+    date: "January 2023",
+    points: [
+      "Developed a Discord Bot during the UofTHacks hackathon, designed to recommend locations around Toronto based on the user's emotional state, with the goal of improving mental health and wellbeing.",
+      "Overcame challenges such as learning how to create a Discord bot and incorporating Co:here AI and ML technology, resulting in the successful creation of a functional bot. Gained valuable experience in bot development and working with AI and ML tools.",
+    ],
+    website: "https://devpost.com/software/travel-therapy",
   },
 ];
 
