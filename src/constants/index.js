@@ -28,6 +28,7 @@ import {
   travelTherapy,
   opzioneZen,
   jobsApi,
+  mlh,
 } from "../assets";
 
 export const navLinks = [
@@ -145,7 +146,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Student Researcher | Full Stack Developer",
+    title: "Student Researcher",
     company_name: "Wimtach",
     icon: centennial,
     iconBg: "#454546",
@@ -155,6 +156,17 @@ const experiences = [
       "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
     ],
     website: "https://wimtach.centennialcollege.ca/partners/",
+  },{
+    title: "MapHacks 2",
+    company_name: "MLH",
+    icon: mlh,
+    iconBg: "#fff",
+    date: "April 2023",
+    points: [
+      "Local Eyes is a revolutionary web application that encourages users to explore their community by providing them with a comprehensive list of nearby locations. The app allows users to filter locations by type and rank them based on proximity.",
+      "Developed a web application involving several tools and resources, including SvelteKit, DaisyUI, TailwindCSS, and Mapbox for the frontend, and Fastify, JWT, JSONSchema, MongoDB, and Swagger for the backend.",
+    ],
+    website: "https://devpost.com/software/tbd-p9xqhv",
   },
   {
     title: "UofTHacks Hackathon",
