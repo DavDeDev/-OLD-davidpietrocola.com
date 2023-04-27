@@ -156,17 +156,18 @@ const experiences = [
       "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
     ],
     website: "https://wimtach.centennialcollege.ca/partners/",
-  },{
-    title: "DeerHacks",
-    company_name: "MLH, University of Toronto",
-    icon: mlh,
-    iconBg: "#fff", 
-    date: "April 2023",
-    points: [
-      "",
-    ],
-    website: "",
   },
+  // {
+  //   title: "DeerHacks",
+  //   company_name: "MLH, University of Toronto",
+  //   icon: mlh,
+  //   iconBg: "#fff", 
+  //   date: "April 2023",
+  //   points: [
+  //     "",
+  //   ],
+  //   website: "",
+  // },
   {
     title: "EducateHacks - 4th place",
     company_name: "MLH",
