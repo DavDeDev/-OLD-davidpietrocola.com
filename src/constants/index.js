@@ -160,7 +160,7 @@ const experiences = [
     title: "DeerHacks",
     company_name: "MLH, University of Toronto",
     icon: mlh,
-    iconBg: "#fff", 
+    iconBg: "#ffffff", 
     date: "April 2023",
     points: [
       "",
