@@ -157,6 +157,17 @@ const experiences = [
     ],
     website: "https://wimtach.centennialcollege.ca/partners/",
   },{
+    title: "DeerHacks",
+    company_name: "MLH, University of Toronto",
+    icon: mlh,
+    iconBg: "#fff", 
+    date: "April 2023",
+    points: [
+      "",
+    ],
+    website: "",
+  },
+  {
     title: "EducateHacks - 4th place",
     company_name: "MLH",
     icon: mlh,
