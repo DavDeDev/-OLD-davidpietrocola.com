@@ -110,10 +110,10 @@ const technologies = [
     name: "Ubuntu",
     icon: ubuntu,
   },
-  {
-    name: "JQuery",
-    icon: jquery,
-  },
+  // {
+  //   name: "JQuery",
+  //   icon: jquery,
+  // },
   // {
   //   name: "HTML 5",
   //   icon: html,
@@ -122,10 +122,10 @@ const technologies = [
   //   name: "CSS 3",
   //   icon: css,
   // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
   // {
   //   name:"Postman",
   //   icon: postman,
