@@ -23,7 +23,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
             I'm a student and a developer. <br className="sm:block hidden" />
             <a target="_blank" href="https://www.gnu.org/philosophy/floss-and-foss.en.html">
-              <span className="text-[#ff8000] underline">FLOSS</span>{" "}
+              <span className="text-[#ff8000] underline"><abbr title="Free/Libre and Open Source Software">FLOSS</abbr></span>{" "}
             </a>
             enthusiast.
           </p>
@@ -46,10 +46,10 @@ const Hero = () => {
             </a>
             <a
               href={resume}
-              download
+              target="_blank"
               className="bg-[#ff8000] py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary z-10"
             >
-              <span className="hidden sm:inline">Download</span> Resume
+              Resume
             </a>
           </div>
         </div>
