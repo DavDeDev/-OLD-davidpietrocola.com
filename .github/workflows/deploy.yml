@@ -1,9 +1,10 @@
 name: deploy-to-firebase
+run-name: ${{ github.actor }} is deploying ${{ github.event.repository.name }} to Firebase Hosting
 
 on:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   deploy:
