@@ -16,7 +16,7 @@ jobs:
       - name: 📥 Cloning repo
         uses: actions/checkout@v3
       - name: 📦 Install packages
-        run: npm i
+        run: npm i --force
       - name: 🔨 Building
         run: npm run build
       - name: 🚀 Deploy to Firebase
