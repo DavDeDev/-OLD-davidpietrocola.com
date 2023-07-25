@@ -36,9 +36,11 @@ import mlh from "./company/mlh.png";
 import uofthacks from "./company/uofthacks.png";
 import nsbe from "./company/NSBE.png";
 
-import travelTherapy from "./travelTherapy.png";
-import opzioneZen from "./opzioneZen.gif";
-import jobsApi from "./jobsApi.png";
+import travelTherapy from "./projects/travelTherapy.png";
+import opzioneZen from "./projects/opzioneZen.gif";
+import jobsApi from "./projects/jobsApi.png";
+import mintBuddy from "./projects/mintBuddy.png";
+import disCal from "./projects/disCal.png";
 
 import resume from "./DavidPietrocola_Resume.pdf";
 
@@ -80,5 +82,7 @@ export {
   travelTherapy,
   opzioneZen,
   jobsApi,
+  mintBuddy,
+  disCal,
   resume,
 };
