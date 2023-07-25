@@ -251,12 +251,14 @@ const projects = [
     ],
     image: disCal,
     source_code_link: 'https://github.com/DavDeDev/DisCal#readme',
+    live_demo_link:
+    'https://discord.com/api/oauth2/authorize?client_id=1116208685945987113&permissions=8&scope=bot',
   },
   {
     name: 'MintBuddy',
     type: 'Chat Bot',
     description:
-      'MintBuddy tackles the issue of accessibility and user-friendliness in interacting with cryptocurrencies and blockchain technology',
+      'MintBuddy tackles the issue of accessibility and user-friendliness in interacting with cryptocurrencies and blockchain technology. It helps minting NFTs by simply asking the user a few questions and then generating the NFT. It also provides a user-friendly interface for interacting with the NFTs.',
     tags: [
       {
         name: 'voiceflow',
